@@ -153,22 +153,44 @@ h1 {
 
 .section-1 {
     display: flex;
-    
+    margin: 180px 0;
     height: 500px;
     align-items: center;
     justify-content: center;
+    padding-bottom: 40px;
 }
 
 .img {
     width: 65%;
     height: 400px;
-    background-color: lightblue;
+    background-color: #ffffff;
 }
 
-.h2 {
+.h2-p {
     width: 35%;
     height: 400px;
-    background-color: lightpink;
+    background-color: #ffffff;
+    
+}
+
+.second-titles {
+    font-size: 3em;
+    font-family: 'Whitney Semibold', sans-serif;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+    
+}
+
+.p-undertext {
+    font-size: 1em;
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: 'Whitney Semibold', sans-serif;
+}
+
+.background-grey {
+    background-color: #f6f6f6 ;
 }
 
 
