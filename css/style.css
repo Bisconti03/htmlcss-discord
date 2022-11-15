@@ -182,8 +182,23 @@ h1 {
     
 }
 
+.third-titles {
+    font-size: 2em;
+    font-family: 'Whitney Semibold', sans-serif;
+    padding-left: 30px;
+    padding-top: 30px;
+    
+    
+    
+}
+
+
+.centered-text {
+    text-align: center;
+}
+
 .p-undertext {
-    font-size: 1em;
+    font-size: 1.5em;
     padding-left: 30px;
     padding-top: 15px;
     font-family: 'Whitney Semibold', sans-serif;
@@ -202,10 +217,26 @@ h1 {
     justify-content: center;
 }
 
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.color-button {
+    background-color: #8ea1e1;
+    color: white;
+}
+
+.big-img {
+    align-self: center;
+}
+
 .green-box {
     width: 100%;
     height: 700px;
-    background-color: green;
+    
 }
 
 .section-3 {
@@ -213,24 +244,87 @@ h1 {
     min-height: 500px;
 }
 
-.salmon-box {
-    background-color: salmon;
-    width: 30%;
+footer {
+    margin-top: 200px;
+    background-color: #23272a;
 }
 
-.cyan-box {
-    background-color: cyan;
-    width: 17.5%;
-}
+
 
 .margin-hr {
     margin: 20px 0;
 }
 
+.footer-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-1 > .cyan-box {
+    width: 75%;
+    min-height: 200px;
+    display: flex;
+}
+
+.footer-1 > .cyan-box > div {
+    width: 25%;
+    min-height: 200px;
+    display: flex;
+}
+
+.footer-1 > .salmon-box {
+    width: 25%;
+    
+}
+
+.h3-footer {
+    font-size: 1.7em;
+    font-family: 'Whitney Semibold', sans-serif;
+    padding-left: 10px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.ita-img {
+    width: 30px;
+    padding-left: 10px;
+}
+
+.violet {
+    color: #7289da;
+}
+
+.white {
+    color: white;
+}
+
+i {
+    color: white;
+    padding-left: 10px;
+    padding-top: 30px;
+   
+}
+
+ul {
+    color: white;
+    padding-top: 20px;
+    list-style-type: none;
+    font-size: 16px;
+    font-family: 'Whitney Semibold', sans-serif;
+    
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+
 .footer-flex {
     
     display: flex;
-    background-color: aqua;
+    
     min-height: 80px;
     flex-direction: row;
     justify-content: space-between;
@@ -241,47 +335,43 @@ h1 {
 .logo-footer {
     align-self: center;
     min-height: 30px;
-    background-color: beige;
+    
     
 }
 
 .button-footer {
     align-self: center;
     min-height: 30px;
-    background-color: beige;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Debug */
-.debug header{
-    min-width: 1200px; 
-    height: 80px;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-family: 'Whitney Semibold', sans-serif;
+    border: none;
+    background-color: #8ea1e1 ;
+    color: white;
     
 
 }
 
-.debug nav {
-    
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
