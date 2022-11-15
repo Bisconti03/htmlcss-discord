@@ -1,0 +1,214 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Whitney', sans-serif;
+    font-family: 'Whitney Semibold', sans-serif;
+    font-family: 'Whitney Book', sans-serif;
+    font-family: 'Whitney Light', sans-serif;
+
+}
+    
+    
+
+
+
+
+
+.container {
+max-width: 1024px;
+margin: 0 auto;
+
+
+}
+.container-flex {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    align-items: center;
+    
+    
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    
+    
+    
+}
+
+header{
+    
+    height: 80px;
+    background-color: #255ee9
+    ;
+}
+
+.link-font {
+    
+    font-size: medium;
+    font-size: 17px;
+    font-family: 'Whitney Semibold', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-vari {
+    padding: 10px;
+    margin: 10px;
+}
+
+.button-properties {
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-family: 'Whitney Semibold', sans-serif;
+    border: none;
+    
+}
+
+
+
+.blue-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.pink-box {
+    background-color: pink;
+    width: 900px;
+    height: 400px;
+
+
+}
+
+.section-1 {
+    display: flex;
+    
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 65%;
+    height: 400px;
+    background-color: lightblue;
+}
+
+.h2 {
+    width: 35%;
+    height: 400px;
+    background-color: lightpink;
+}
+
+
+.section-2 {
+    display: flex;
+    
+    min-height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-box {
+    width: 100%;
+    height: 700px;
+    background-color: green;
+}
+
+.section-3 {
+    display: flex;
+    min-height: 500px;
+}
+
+.salmon-box {
+    background-color: salmon;
+    width: 30%;
+}
+
+.cyan-box {
+    background-color: cyan;
+    width: 17.5%;
+}
+
+.margin-hr {
+    margin: 20px 0;
+}
+
+.footer-flex {
+    
+    display: flex;
+    background-color: aqua;
+    min-height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.logo-footer {
+    align-self: center;
+    min-height: 30px;
+    background-color: beige;
+    
+}
+
+.button-footer {
+    align-self: center;
+    min-height: 30px;
+    background-color: beige;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Debug */
+.debug header{
+    min-width: 1200px; 
+    height: 80px;
+    
+
+}
+
+.debug nav {
+    
+}
+
+
+
+
+
