@@ -78,6 +78,59 @@ a {
     
 }
 
+h1 {
+    color: white;
+    font-family: 'Whitney Book', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.title {
+    padding: 20px;
+}
+
+.title-subtext {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5em;
+    padding: 20px 0;
+}
+
+
+.button-flex {
+    display: flex;
+    
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+
+.scarica-mac {
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-family: 'Whitney Semibold', sans-serif;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+    
+    
+}
+
+.apri-discord {
+    color: white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-family: 'Whitney Semibold', sans-serif;
+    border: none;
+    font-size: 20px;
+    background-color: #23272a;
+    margin-top: 30px;
+
+}
 
 
 .blue-background {
@@ -91,7 +144,7 @@ a {
 }
 
 .pink-box {
-    background-color: pink;
+    
     width: 900px;
     height: 400px;
 
